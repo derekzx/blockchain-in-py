@@ -3,7 +3,7 @@
 ## Introduction
 A blockchain in the simplest of terms is literally a chain of blocks. 
 
-![Linked List](img/simple_linked_list.png_ "Linked List")
+![Linked List](img/simple_linked_list.png "Linked List")
 _Source: [BlockGeeks] https://blockgeeks.com/guides/what-is-hashing/
 
 Above you can see what a linked list looks like. A blockhain is extremely similar. Instead of having a pointer pointing to the memory of the next item in the list each block contains a hash of all the data contained within the previous node. Each block contains its own relevant data as well.
