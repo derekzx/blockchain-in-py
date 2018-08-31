@@ -9,7 +9,7 @@ class Blockchain:
     def genesis():
         return Block()
 
-    def next_block(parent_block, transactions=None):
+    def mine(parent_block, transactions=None):
         child_height = parent_block.height + 1
         child_timestamp = '31 Aug 2018 11:00:00'
         # child_timestamp = date.datetime.now()
