@@ -2,12 +2,11 @@
 
 ## Introduction
 A blockchain in the simplest of terms is literally a chain of blocks. 
-Each block is connected to the previous block through 
 
-![Blockchain](img/simple_blockchain.png "Blockchain")
-_Source: [BlockGeeks] https://blockgeeks.com/wp-content/uploads/2017/08/image3.png
+![Linked List](img/simple_linked_list.png_ "Linked List")
+_Source: [BlockGeeks] https://blockgeeks.com/guides/what-is-hashing/
 
-Above you can see what a blockchain looks like. Each block contains a hash of all the data contained within the previous node and its own relevant data.
+Above you can see what a linked list looks like. A blockhain is extremely similar. Instead of having a pointer pointing to the memory of the next item in the list each block contains a hash of all the data contained within the previous node. Each block contains its own relevant data as well.
 
 ## The Problem
 You have come up with a new 'Simple_Coin' which you want to implement using blockchain technology. Unfortunately for the users (and fortunately for you) you have adopted a framework which all of the mining power is centralised.
